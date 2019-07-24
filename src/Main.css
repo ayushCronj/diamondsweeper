@@ -1,0 +1,14 @@
+@import '~antd/dist/antd.css';
+.container {
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+}
+
+@media all and (max-width: 500px) {
+    .container {
+        justify-content: flex-start;
+    }
+}
